@@ -54,7 +54,7 @@ time.sleep(0.5)
 print()
 
 print(str(days) + " days old")
-print(str(hours) + " houts old")
+print(str(hours) + " hours old")
 print(str(minutes) + " minutes old")
 print(str(seconds) + " seconds old")
 
