@@ -8,7 +8,7 @@
 # 				Game #002: Your Interplanetary Age
 #
 # 	1. Ask the user's age
-#	2. Return their age in days and years of each of the planets
+#	2. Return their age in years of each of the planets
 #	3. Extra credit: Format the results in a nice table, probably | pipe | delimited 
 #	4. Extra extra credit: Get the welcome message to print out like a videprinter	
 #
@@ -19,8 +19,8 @@
 # 	http://jenniferdewalt.com/
 #
 ###############################################################################
+
 import time
-from decimal import Decimal
 
 ### a year for each planet ###
 mercury_year = 87.97 # days
@@ -33,13 +33,16 @@ uranus_year = 84.01 # years
 neptune_year = 164.79 # years
 pluto_year = 248.59 # years
 
+
 print ("Hello again! Welcome to the next game in the 100 Games Project")
 print ("This time we're going to calculate your age in days and years on other planets in the solar system")
 time.sleep(1)
 
+### Receive the user's input ###
 print("What is your age?")
 age = int(input(">>> "))
 
+### Calculate the person's age ###
 mercury_age_years = round((age * (earth_year / 87.97)),2)
 venus_age_years = round((age * (earth_year / 224.7)),2)
 earth_age_years = round(age,2)
@@ -50,15 +53,10 @@ uranus_age_years = round(age / 84.01 ,2)
 neptune_age_years = round(age / 164.79 ,2)
 pluto_age_years = round(age / 248.59 ,2)
 
+### Print out the person's age in years on each of the planets ###
 time.sleep(0.5)
 print()
-
-print(str(days) + " days old")
-print(str(hours) + " hours old")
-print(str(minutes) + " minutes old")
-print(str(seconds) + " seconds old")
-
-print("You are " + str(mercury_age_years) + " Mercury years old")
+print("You are " + str(mercury_age_years + "Mercury years old")
 print("You are " + str(venus_age_years) + " Venus years old")
 print("You are " + str(earth_age_years) + " Earth years old")
 print("You are " + str(mars_age_years) + " Mars years old old")
