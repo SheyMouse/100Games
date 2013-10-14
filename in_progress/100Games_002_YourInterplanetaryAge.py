@@ -53,6 +53,11 @@ pluto_age_years = round(age / 248.59 ,2)
 time.sleep(0.5)
 print()
 
+print(str(days) + " days old")
+print(str(hours) + " houts old")
+print(str(minutes) + " minutes old")
+print(str(seconds) + " seconds old")
+
 print("You are " + str(mercury_age_years) + " Mercury years old")
 print("You are " + str(venus_age_years) + " Venus years old")
 print("You are " + str(earth_age_years) + " Earth years old")
@@ -62,4 +67,5 @@ print("You are " + str(saturn_age_years) + " Saturn years old old")
 print("You are " + str(uranus_age_years) + " Uranus years old old")
 print("You are " + str(neptune_age_years) + " Neptune years old old")
 print("You are " + str(pluto_age_years) + " Pluto years old old")
+
 
