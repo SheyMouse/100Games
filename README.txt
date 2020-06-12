@@ -1,4 +1,4 @@
-100 Games
+##The 100 Games Project
 
 This project is where I intend to create 100 games in whatever programming language I am learning at the time. 
 
