@@ -1,18 +1,18 @@
 #
-#               	100 Games Project 
+#               	100 Games Project
 #
 #	See http://mousesmusings.blogspot.co.uk/search/label/100%20Games for more information
 #	Inspired by Jennifer Dewalt's 180 websites in 180 days - http://jenniferdewalt.com/
 #
 #
-# 				Game #002: Your Interplanetary Age
+# 				Your Interplanetary Age
 #
 # 	1. Ask the user's age
 #	2. Return their age in years of each of the planets
-#	3. Extra credit: Format the results in a nice table, probably | pipe | delimited 
-#	4. Extra extra credit: Get the welcome message to print out like a videprinter	
+#	3. Extra credit: Format the results in a nice table, probably | pipe | delimited
+#	4. Extra extra credit: Get the welcome message to print out like a videprinter
 #
-#	Thanks to http://www.exploratorium.edu/ronh/age/ for the information on 
+#	Thanks to https://www.exploratorium.edu/ronh/age/ for the information on
 #	the orbits of the planets in Earth days
 #
 # 	Inspired by Jennifer Dewalt's 180 websites in 180 days
@@ -56,7 +56,7 @@ pluto_age_years = round(age / 248.59 ,2)
 ### Print out the person's age in years on each of the planets ###
 time.sleep(0.5)
 print()
-print("You are " + str(mercury_age_years + "Mercury years old")
+print("You are " + str(mercury_age_years) + " Mercury years old")
 print("You are " + str(venus_age_years) + " Venus years old")
 print("You are " + str(earth_age_years) + " Earth years old")
 print("You are " + str(mars_age_years) + " Mars years old old")
@@ -65,5 +65,3 @@ print("You are " + str(saturn_age_years) + " Saturn years old old")
 print("You are " + str(uranus_age_years) + " Uranus years old old")
 print("You are " + str(neptune_age_years) + " Neptune years old old")
 print("You are " + str(pluto_age_years) + " Pluto years old old")
-
-

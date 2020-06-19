@@ -1,7 +1,7 @@
 #
-#               100 Games Project 
+#               100 Games Project
 #
-# Game #1: Greeting
+# Game #001: Greeting
 #
 # Ask a person's name and greet them
 # Not really a game but a place to start
@@ -16,5 +16,3 @@ print ("Hi! What is your name? ")
 name = input(">>> ")
 
 print ("Welome " + name + "! I hope you enjoy your time browsing the 100 Games project.")
-
-
